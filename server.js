@@ -9,8 +9,7 @@ app.use(cors());
 const PORT = process.env.PORT || 3000;
 
 // Excel ফাইলের পাথ (আপনার GitHub repo তে আপলোড করা ফাইল ডাউনলোড করে রাখবেন Render সার্ভারে অথবা সরাসরি raw URL থেকে fetch করবেন)
-const EXCEL_URL = "https://raw.githubusercontent.com/Programmer510-afk/Prize-Bond-Data-Table/main/Prize_Bond_Excel_Table.xlsx
-";
+const EXCEL_URL = const EXCEL_URL = "https://raw.githubusercontent.com/Programmer510-afk/Prize-Bond-Data-Table/main/Prize_Bond_Excel_Table.xlsx";
 
 // node-fetch লাগলে ইনস্টল করবেন: npm i node-fetch@2
 const fetch = require('node-fetch');
